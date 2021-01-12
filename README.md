@@ -25,3 +25,10 @@ Make sure to change the value of the `provider:region:` under the serverless.yml
 ## Deployment to aws serverless
 
 Run `npm run build:serverless:deploy` to deploy this app to your AWS
+
+## Changes made in order to correct the deployment process to AWS
+
+Added `- '!node_modules/@vendia/**'` in the `package:exclude:` section of the serverless.yml file
+Updated tsconfig.json file to correct the default configuration of `esModuleInterop` to `false`.
+Added the `npm install --save-dev serverless-api-compression` additionally for the compression of the output to be deployed on the AWS serverless environment.
+These settings and the correct versions of the dependencies made this app run successfully on the AWS serverless environment.
