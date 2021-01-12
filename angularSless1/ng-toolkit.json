@@ -1,0 +1,15 @@
+{
+  "serverless": {
+    "project": "angularSless1",
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "lambdaTS": false,
+    "offline": false,
+    "clientProject": "angularSless1",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
