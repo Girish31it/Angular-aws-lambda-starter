@@ -1,4 +1,4 @@
-# AngularSless1
+# AngularSless1 - Deploy your angular application to the AWS serverless environment with @ng-toolkit/serverless plugin
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
